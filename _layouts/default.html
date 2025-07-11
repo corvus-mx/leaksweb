@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Nerdfonts Web CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@nerdfonts/webfonts@latest/css/nerdfonts.css">
+  <!-- JetBrains Mono for code and accent -->
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/index.md"><i class="nf nf-oct-home"></i> Inicio</a>
+      <a href="/filtraciones/"><i class="nf nf-md-folder_search"></i> Filtraciones</a>
+      <a href="/guia.md"><i class="nf nf-md-shield_lock"></i> Guía OPSEC</a>
+      <a href="/contacto.md"><i class="nf nf-md-email_lock"></i> Contacto</a>
+      <a href="/mirrors.md"><i class="nf nf-md-server_network"></i> Mirrors</a>
+    </nav>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <small>
+      <i class="nf nf-md-copyright"></i> 2025 CORVUS — MexiLeaks | 
+      <a href="/guia.md"><i class="nf nf-md-shield_lock"></i> Privacidad</a>
+    </small>
+  </footer>
+</body>
+</html>
